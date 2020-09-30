@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>SelectProduct</title>
+</head>
+<body>
+	<form action="/jmaster2/LoginServlet" method="post">
+		ユーザー名:<input type="text" name="name"><br>
+		パスワード:<input type="password" name="pw"><br>
+		<input type="hidden" name="action" value="login">
+		<input type="submit" value="ログイン">
+	</form>
+
+	<hr>
+	お菓子を選択してください
+	<br>
+	<br>
+
+	<a href="/jmaster2/AddCartServlet2?product_no=100">ホームパイ</a>
+	<img
+		src="https://www.fujiya-peko.co.jp/sweets/assets/img/17660_20181106.jpg">
+	<br>
+	<br>
+	<a href="/jmaster2/AddCartServlet2?product_no=101">ダース</a>
+	<img src="https://sysbird.jp/toriko/files/2020/01/10137.jpg">
+	<br>
+	<br>
+	<a href="/jmaster2/AddCartServlet2?product_no=102">プリッツ</a>
+	<img
+		src="https://image.itmedia.co.jp/nl/articles/1711/11/kikka_171111p1.jpg">
+	<br>
+	<br>
+	<a href="/jmaster2/AddCartServlet2?product_no=103">おさつ</a>
+	<img
+		src="https://static.wixstatic.com/media/bba59d_3eb5b57ff83749708b9f8b2d5a02c2d9~mv2.jpg/v1/fill/w_500,h_500,al_c,q_80/ca180829-01a.jpg">
+	<br>
+
+	<br>
+	<a href="/jmaster2/LoginServlet?action=logout">ログアウト</a>
+	<br>
+</body>
+</html>
